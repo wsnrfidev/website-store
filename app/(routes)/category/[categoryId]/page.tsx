@@ -21,7 +21,7 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({ params }) => {
   return (
     <div className="bg-white">
       <Container>
-        <Banner data={category.banner} />
+        <Banner data={category?.banner} />
         <div className="px-4 sm:px-6 lg:px-8 pb-24">
           <div className="mt-6 lg:col-span-4 lg:mt-0">
             {products.length === 0 && <NoResults/>}
