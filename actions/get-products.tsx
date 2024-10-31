@@ -1,4 +1,5 @@
 import { Product } from "@/types";
+
 import qs from "query-string";
 
 const URL = `${process.env.PUBLIC_API_URL}/products`;
